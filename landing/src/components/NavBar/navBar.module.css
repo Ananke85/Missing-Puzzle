@@ -1,0 +1,80 @@
+.mainContainer {
+  width: 80vw;
+  height: 70vh;
+  background: linear-gradient(-70deg, var(--grey-medium), white);
+  z-index: 1;
+  position: absolute;
+  top: 3em;
+  left: 3em;
+  border-radius: 0.5em;
+}
+
+.container {
+  background-color: var(--green);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation,
+.buttons {
+  display: flex;
+  gap: 2em;
+  position: relative;
+}
+
+.navigation {
+  left: 5em;
+}
+
+.buttons {
+  right: 5em;
+}
+
+.back {
+  position: absolute;
+  top: 3em;
+  left: 26.4vw;
+  width: 51.25em;
+  height: 10em;
+  /* background: linear-gradient(
+    to left,
+    var(--green),
+    var(--green-medium),
+    var(--green-light)
+  ); */
+  background-color: var(--green-light);
+  z-index: 2;
+    border-radius: 0 0 0 5em;
+
+}
+
+.mainContainer::before {
+  content: "";
+  position: absolute;
+  top: 9.8em;
+  right: 0;
+  width: 47.5em; 
+  height: 19em; 
+  /* background: linear-gradient(to left, var(--green), var(--green-medium), var(--green-light)); */
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  transform: scaleY(-1);
+  border-radius: 2em 0 0;
+  background-color: var(--green-light);
+
+}
+/* .back {
+  background-color: var(--green-dark);
+  height: 20em;
+  width: 60vw;
+  position: absolute;
+  top: -5.5em;
+  left: 30vw;
+  z-index: -1;
+  border-radius: 4em;
+  transform: rotate(15deg);
+  background: linear-gradient(to left, var(--green), var(--green-medium), var(--green-light));
+  z-index: 2;
+
+} */

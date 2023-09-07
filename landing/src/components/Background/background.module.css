@@ -1,0 +1,26 @@
+.green {
+  background-color: var(--green-dark);
+  height: 100%;
+  width: 100vw;
+  position: absolute;
+  top: -5.5em;
+  left: 30vw;
+  z-index: -1;
+  border-radius: 4em;
+  transform: rotate(21deg);
+  background: linear-gradient(to left, var(--green), var(--green-medium), var(--green-light));
+  background: linear-gradient(to left, var(--green), var(--green-medium));
+
+}
+
+.upGreen {
+  background-color: var(--green-medium);
+  height: 22.7em;
+  width: 10%;
+  position: absolute;
+  left: 26.4vw;
+  z-index: -2;
+
+
+}
+
