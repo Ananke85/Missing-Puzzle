@@ -4,7 +4,7 @@
   font-weight: 400;
 
   /* color-scheme: light dark; */
-  color: white;
+  color: var(--grey-dark);
   background-color: var(--grey);
 
   font-synthesis: none;
@@ -37,5 +37,18 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+button {
+  padding: 0.5em 1em;
+  border-radius: 2em;
+  border: none;
+  background-color: var(--pink);
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: var(--green-medium);
 }
 

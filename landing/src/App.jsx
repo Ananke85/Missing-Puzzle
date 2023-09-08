@@ -1,12 +1,12 @@
 import "./App.css";
 import Background from "./components/Background/Background";
-import NavBar from "./components/NavBar/NavBar";
+import Container from "./components/Container/Container";
 
 function App() {
   return (
     <>
       <Background />
-      <NavBar />
+      <Container />
     </>
   );
 }

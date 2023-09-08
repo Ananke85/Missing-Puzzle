@@ -1,0 +1,36 @@
+.mainContainer {
+  width: 80vw;
+  height: 70vh;
+  background: linear-gradient(-70deg, var(--grey-medium), white);
+  z-index: -5;
+  position: absolute;
+  top: 2em;
+  left: 3em;
+  border-radius: 0.5em;
+}
+
+.back {
+  position: relative;
+  top: 2em;
+  left: 26.4vw;
+  width: 51.25em;
+  width: 56.95vw;
+  height: 10em;
+  background-color: var(--green-light);
+  z-index: -3;
+  border-radius: 0 0 0 5em;
+}
+
+.mainContainer::before {
+  content: "";
+  position: absolute;
+  top: 9.8em;
+  right: 0;
+  width: 47.5em;
+  width: 53vw;
+  height: 19em;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  transform: scaleY(-1);
+  border-radius: 2em 0 0;
+  background-color: var(--green-light);
+}

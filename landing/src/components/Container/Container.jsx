@@ -1,12 +1,24 @@
-import styles from "./navBar.module.css";
+import Content from "../Content/Content";
+import Jobs from "../Jobs/Jobs";
+import styles from "./container.module.css";
 
-const NavBar = () => {
+const Container = () => {
   return (
     <>
       <div className={styles.back}></div>
 
-      <div className={styles.mainContainer}>
-        {/* <div className={styles.container}>
+      <div className={styles.mainContainer}></div>
+      <Content />
+      <Jobs />
+
+    </>
+  );
+};
+
+export default Container;
+
+{
+  /* <div className={styles.container}>
           <img></img>
           <div className={styles.navigation}>
             <h3>Home</h3>
@@ -18,10 +30,5 @@ const NavBar = () => {
             <button>Log in</button>
             <button>Sign up</button>
           </div>
-        </div> */}
-      </div>
-    </>
-  );
-};
-
-export default NavBar;
+        </div> */
+}

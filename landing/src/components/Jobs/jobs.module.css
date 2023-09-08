@@ -1,0 +1,57 @@
+.jobs {
+  position: relative;
+  left: 8em;
+  top: -5em;
+}
+
+.jobCards {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  
+}
+
+.card {
+  background-color: white;
+  border-radius: 1em;
+  padding: 0 1em;
+  width: 13em;
+  height: 13em;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 3px 3px 10px rgba(226, 25, 142, 0.466);
+
+}
+.card h5 {
+  margin-bottom: -1em;
+}
+
+.textGrey {
+  color: var(--grey-medium);
+  font-style: italic;
+}
+
+.textPink {
+  color: var(--pink);
+  font-size: 1.4em;
+}
+
+.card h4 {
+  text-decoration: underline;
+}
+
+.reward {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.reward .textGrey {
+  position: relative;
+  top: 1em;
+}

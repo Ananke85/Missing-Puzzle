@@ -5,10 +5,15 @@
   position: absolute;
   top: -5.5em;
   left: 30vw;
-  z-index: -1;
+  z-index: -5;
   border-radius: 4em;
-  transform: rotate(21deg);
-  background: linear-gradient(to left, var(--green), var(--green-medium), var(--green-light));
+  transform: rotate(21cdeg);
+  background: linear-gradient(
+    to left,
+    var(--green),
+    var(--green-medium),
+    var(--green-light)
+  );
   background: linear-gradient(to left, var(--green), var(--green-medium));
 
 }
@@ -19,8 +24,23 @@
   width: 10%;
   position: absolute;
   left: 26.4vw;
-  z-index: -2;
+  z-index: -5;
+  /* box-shadow: 3px 3px 10px rgba(207, 21, 21, 0.7); */
+
+}
+
+
+.pink {
+  background-color: var(--pink);
+  width: 38em;
+  height: 16em;
+  position: absolute;
+  bottom: 0;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  transform: scaleX(-1);
+  z-index: -5;
 
 
 }
+
 

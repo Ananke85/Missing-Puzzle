@@ -1,0 +1,61 @@
+.container {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: 3em;
+  top: -7em;
+  z-index: 5;
+}
+
+.navigation,
+.buttons {
+  display: flex;
+  gap: 2em;
+  position: relative;
+}
+
+.navigation {
+  left: 5em;
+}
+
+.navigation h3:hover {
+  color: var(--pink);
+}
+
+.buttons {
+  right: 5em;
+}
+
+.textContainer {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr;
+  gap: 2em;
+  position: relative;
+  left: 8em;
+  top: -6em;
+}
+
+.textContainer img {
+  height: 15em;
+}
+
+.textPink {
+  color: var(--pink);
+}
+.title {
+  font-size: 2em;
+}
+
+.search {
+  border-radius: 2em;
+  border: 1px solid var(--pink);
+  padding: 0.5em 1em;
+  width: 27em;
+}
+
+.searchBar {
+  display: flex;
+  gap: 2em;
+}
