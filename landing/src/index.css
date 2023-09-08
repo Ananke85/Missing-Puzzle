@@ -16,7 +16,7 @@
   --green-light: #79eee2;
   --green-medium: #54b4d1;
   --green: #0a4a5e;
-  --yellow: #e4b349;
+  --yellow: #f7b11b;
   --pink: #af2a5b;
   --grey: #dfe2e2;
   --grey-medium: #c3c5c4;
@@ -49,6 +49,6 @@ button {
 }
 
 button:hover {
-  background-color: var(--green-medium);
+  background-color: var(--yellow);
 }
 

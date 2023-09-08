@@ -34,7 +34,7 @@
   gap: 2em;
   position: relative;
   left: 8em;
-  top: -6em;
+  top: -6.5em;
 }
 
 .textContainer img {
@@ -58,4 +58,10 @@
 .searchBar {
   display: flex;
   gap: 2em;
+}
+
+.container img {
+  width: 4em;
+  position: relative;
+  left: 2em;
 }

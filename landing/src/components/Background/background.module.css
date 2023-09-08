@@ -1,5 +1,5 @@
 .green {
-  background-color: var(--green-dark);
+  /* background-color: var(--green-dark); */
   height: 100%;
   width: 100vw;
   position: absolute;
@@ -42,5 +42,18 @@
 
 
 }
+
+
+.puzzle {
+  z-index: -5;
+  width: 54.3%;
+  position: fixed;
+  right: -0.5em;
+  top: -0.5em;
+  opacity: 0.2;
+  overflow: hidden;
+}
+
+
 
 

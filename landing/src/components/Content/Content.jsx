@@ -1,11 +1,12 @@
 import styles from "./content.module.css";
 import job from "../../assets/job_search.png";
+import logo from "../../assets/landing.png"
 
 const Content = () => {
   return (
     <>
       <div className={styles.container}>
-        <img></img>
+        <img src={logo}></img>
         <div className={styles.navigation}>
           <h3>Home</h3>
           <h3>About Us</h3>
