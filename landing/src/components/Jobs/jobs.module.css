@@ -6,8 +6,10 @@
 
 .jobCards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  width: 85%;
+  gap: 2em;
+  max-width: 85%;
   
 }
 
@@ -76,3 +78,5 @@
   position: relative;
   top: -2em;
 }
+
+

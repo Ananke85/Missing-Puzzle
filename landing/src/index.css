@@ -27,8 +27,6 @@
 
 body {
   margin: 0;
-  /* display: flex;
-  place-items: center; */
   min-width: 320px;
   height: 100vh;
   overflow: hidden;
@@ -51,4 +49,7 @@ button {
 button:hover {
   background-color: var(--yellow);
 }
+
+
+
 
